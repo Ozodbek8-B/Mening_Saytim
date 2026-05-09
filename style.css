@@ -1,0 +1,59 @@
+/* Fon va asosiy ko'rinish */
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* O'rtadagi asosiy blok */
+.asosiy-quti {
+    background-color: #1e293b;
+    max-width: 400px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.sarlavha {
+    color: #38bdf8;
+}
+
+.rasm {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #38bdf8;
+}
+
+.media-bolim {
+    margin-top: 15px;
+    background: #334155;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.audio-pleyer, .video-pleyer {
+    width: 100%;
+}
+
+/* Tugma dizayni */
+#tugma {
+    background-color: #38bdf8;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+#tugma:hover {
+    background-color: #7dd3fc;
+    transform: scale(1.05);
+}
